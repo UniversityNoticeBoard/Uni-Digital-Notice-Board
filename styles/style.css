@@ -1,0 +1,94 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f2f4f8;
+  color: #333333;
+  line-height: 1.6;
+}
+
+.site-header {
+  background-color: #002855;
+  color: #ffffff;
+  padding: 20px;
+  text-align: center;
+}
+
+.tagline {
+  margin-top: 5px;
+  font-size: 0.95rem;
+}
+
+.navigation {
+  margin-top: 15px;
+}
+
+.navigation a {
+  color: #ffffff;
+  text-decoration: none;
+  margin: 0 10px;
+  font-weight: bold;
+}
+
+.navigation a:hover {
+  text-decoration: underline;
+}
+
+.page-header {
+  background-color: #004080;
+  color: #ffffff;
+  padding: 25px;
+  text-align: center;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 20px auto;
+  padding: 0 20px;
+}
+
+.intro,
+.highlights,
+.guidelines,
+.exam-section,
+.admission-block,
+.contact-details {
+  background-color: #ffffff;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+.notice-card {
+  background-color: #ffffff;
+  padding: 20px;
+  margin-bottom: 15px;
+  border-left: 5px solid #004080;
+}
+
+.notice-date {
+  display: block;
+  margin-top: 10px;
+  font-size: 0.85rem;
+  color: #666666;
+}
+
+.site-footer {
+  background-color: #002855;
+  color: #ffffff;
+  text-align: center;
+  padding: 15px;
+  margin-top: 30px;
+}
+
+.site-footer a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.site-footer a:hover {
+  text-decoration: underline;
+}
