@@ -14,5 +14,8 @@
     "build": "parcel build src/index.html --dist-dir dist"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "stylelint-config-standard": "^39.0.1"
+  }
 }
