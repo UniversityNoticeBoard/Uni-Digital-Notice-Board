@@ -48,5 +48,5 @@ jobs:
           username: ${{secrets.DH_USERNAME}}
           password: ${{secrets.DH_TOKEN}}
       - name: Push Image to docker Hub
-        run: docker push ${{secrets.USERNAME}}/static-website:latest
+        run: docker push ${{secrets.DH_USERNAME}}/static-website:latest
      
