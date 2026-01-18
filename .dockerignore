@@ -1,11 +1,5 @@
-node_modules
-.parcel-cache
-dist
-.cache
-.git
-.gitignore
-*.log
-npm-debug.log*
-.DS_Store
-.env
-.env.local
+**/.gitignore
+**/docker-compose.yaml
+**/Dockerfile
+**/.parcel-cache
+
