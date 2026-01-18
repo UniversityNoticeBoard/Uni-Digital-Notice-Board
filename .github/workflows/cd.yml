@@ -18,7 +18,7 @@ jobs:
 
       - name: Pull Docker Image
         run: |
-          docker pull ${{ secrets.DOCKERHUB_USERNAME }}/static-website
+          docker pull ${{ secrets.DH_USERNAME }}/static-website:latest
 
       - name: Trigger Render Deployment
         run: |
