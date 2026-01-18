@@ -1,12 +1,9 @@
 name: cd-wf
 
 on:
-  workflow_run:
-    workflows: ["ci-wf"]
-    branches: [develop]
-    types:
-      - completed
-
+  push:
+    branches:
+      - develop
 jobs:
   deploy-job:
     if: ${{ github.event.workflow_run.conclusion == 'success' }}
